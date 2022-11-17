@@ -17,9 +17,9 @@ int SecondNumber(int numb)
 if (number > 99 && number < 1000)
 {
     int result = SecondNumber(number);
-    Console.WriteLine(result);
+    Console.WriteLine($"{number} -> {result}");
 }
 else
 {
-    Console.Write("Число не трехзначное");
+    Console.Write($" Число {number} не трехзначное");
 }
